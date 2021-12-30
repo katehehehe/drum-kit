@@ -65,7 +65,7 @@ function buttonAnimation(key) {
   var theButton = document.querySelector("." + key);
   theButton.classList.add("pressed");
 
-  setTimeojut(function(){
+  setTimeout(function(){
     theButton.classList.remove("pressed");
   }, 100);
 
